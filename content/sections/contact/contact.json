@@ -1,0 +1,13 @@
+{
+  "name": "RPM <Code/>",
+  "email": "example@mail.com",
+  "description": "If you have any problems with this theme, create an issue in the GitHub repository.",
+  "image": {
+    "src": "../../images/favicon.ico",
+    "alt": "Company Logo"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}

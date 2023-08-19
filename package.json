@@ -1,0 +1,39 @@
+{
+  "name": "rpm-landing",
+  "version": "0.0.1",
+  "description": "RPM Landing Page for all the developments.",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "gatsby": "^5.0.1",
+    "gatsby-theme-portfolio-minimal": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "author": "Eiichi Matsuo",
+  "license": "0BSD",
+  "starter-name": "gatsby-starter-portfolio-minimal-theme",
+  "homepage": "https://github.com/Kelebra28/rpmCode#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kelebra28/rpmCode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kelebra28/rpmCode/issues"
+  },
+  "keywords": [
+    "react",
+    "gatsby",
+    "dark-mode",
+    "rpm",
+    "code",
+    "landing"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "",
+    "title": "RPM Code",
+    "titleTemplate": "%s · RPM Code",
+    "description": "RPM Code Lnding page.",
+    "author": "RPM Code",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "Can contain some more details about the page.",
+    "social": {
+      "behance": "https://behance.com",
+      "github": "https://github.com/r",
+      "medium": "https://medium.com",
+      "linkedin": "https://www.linkedin.com/",
+      "mail": "mailto:info@rpmspeedcode.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "RPM <Code/>" },
+    "navigation": {
+      "header": [
+        { "label": "About", "url": "/#about" },
+        { "label": "Blog", "url": "/blog" },
+        { "label": "Features", "url": "/#features" },
+        { "label": "Github", "url": "/#github" }
+      ],
+      "ctaButton": {
+        "openNewTab": true,
+        "label": "Resume",
+        "url": "/resume.pdf"
+      },
+      "footer": [
+        { "label": "Privacy", "url": "/privacy" },
+        { "label": "Imprint", "url": "/imprint" }
+      ]
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}
