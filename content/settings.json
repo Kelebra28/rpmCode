@@ -4,14 +4,15 @@
     "siteUrl": "",
     "title": "RPM Code",
     "titleTemplate": "%s · RPM Code",
+    "thumbnail": "../content/images/logo-white.png",
     "description": "RPM Code Lnding page.",
     "author": "RPM Code",
-    "avatar": "../content/images/gatsby.png",
+    "avatar": "../content/images/favicon.png",
     "bio": "Can contain some more details about the page.",
     "social": {
       "behance": "https://behance.com",
       "github": "https://github.com/r",
-      "medium": "https://medium.com",
+      "medium": "https://medium.com/@ibrahimzahir7",
       "linkedin": "https://www.linkedin.com/",
       "mail": "mailto:info@rpmspeedcode.com"
     }
@@ -27,7 +28,7 @@
       ],
       "ctaButton": {
         "openNewTab": true,
-        "label": "Resume",
+        "label": "Docs",
         "url": "/resume.pdf"
       },
       "footer": [

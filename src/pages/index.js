@@ -1,19 +1,19 @@
 import React from "react";
 
-import AboutSection from "./../sections/About";
-import ArticlesSection from "./../sections/Articles";
-import ContactSection from "./../sections/Contact";
-import HeroSection from "./../sections/Hero";
-import InterestsSection from "./../sections/Interests";
-import ProjectsSection from "./../sections/Projects";
+import { AboutSection } from "./../sections/About";
+import { ArticlesSection } from "./../sections/Articles";
+import { ContactSection } from "./../sections/Contact";
+import { HeroSection } from "./../sections/Hero";
+import { InterestsSection } from "./../sections/Interests";
+import { ProjectsSection } from "./../sections/Projects";
 
-import Seo from "./../components/Seo";
-import Page from "./../components/Page";
+import { Seo } from "./../components/Seo";
+import { Page } from "./../components/Page";
 
 export default function IndexPage() {
   return (
     <>
-      <Seo title="RPM | Landing" />
+      <Seo title="RPM | Landing" thumbnailUrl='../../content/images/logo-white.png'/>
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         <ArticlesSection
