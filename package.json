@@ -13,12 +13,12 @@
   },
   "dependencies": {
     "gatsby": "^5.0.1",
-    "gatsby-theme-portfolio-minimal": "latest",
+    "gatsby-theme-portfolio-minimal": "^4.6.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "author": "Eiichi Matsuo",
-  "license": "0BSD",
+  "license": "MID",
   "starter-name": "gatsby-starter-portfolio-minimal-theme",
   "homepage": "https://github.com/Kelebra28/rpmCode#readme",
   "repository": {
