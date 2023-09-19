@@ -5,6 +5,7 @@ interface SectionProps {
     anchor: string;
     heading?: string;
     additionalClasses?: string[];
+    custuomSection?: boolean;
     children: React.ReactNode;
 }
 
@@ -12,6 +13,8 @@ export function Section(props: SectionProps): React.ReactElement {
     let classList;
     if (props.additionalClasses) {
         classList = props.additionalClasses.concat(classes.ContentWrapper).join(' ');
+    } if (props.custuomSection) {
+        classList = ''
     } else {
         classList = classes.ContentWrapper;
     }

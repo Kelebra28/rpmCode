@@ -1,0 +1,29 @@
+{
+  "services": [
+    {
+      "icon": "web",
+      "title": "Desarrollo Web",
+      "content": "Tu sitio web optimizado, accesible y receptivo, paneles de negocios y aplicaciones web progresivas para una presencia en línea efectiva."
+    },
+    {
+      "icon": "mobile",
+      "title": "Desarrollo de Aplicaciones Móviles",
+      "content": "Creamos aplicaciones móviles nativas o multiplataforma impresionantes."
+    },
+    {
+      "icon": "dev",
+      "title": "Desarrollo y Operaciones (DevOps)",
+      "content": "Automatiza lanzamientos con CI & CD, optimiza tu estrategia en la nube para escalabilidad, control y seguridad."
+    },
+    {
+      "icon": "commerce",
+      "title": "Comercio Electrónico (E-commerce)",
+      "content": "Crea soluciones rápidas y eficientes utilizando Shopify y sus mejores plugins para vender tus productos de forma efectiva, ofreciendo entregas y análisis de ventas."
+    },
+    {
+      "icon": "other",
+      "title": "Evaluación de Aplicaciones e Infraestructura en la Nube",
+      "content": "Evaluación completa de aplicaciones e infraestructura en la nube para decisiones informadas."
+    }
+  ]
+}

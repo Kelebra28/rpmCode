@@ -9,6 +9,7 @@ import { ProjectsSection } from "./../sections/Projects";
 
 import { Seo } from "./../components/Seo";
 import { Page } from "./../components/Page";
+import { ServicesSection } from "../sections/Services";
 
 export default function IndexPage() {
   return (
@@ -16,11 +17,12 @@ export default function IndexPage() {
       <Seo title="RPM | Landing" thumbnailUrl='../../content/images/logo-white.png'/>
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <ArticlesSection
+        {/* <ArticlesSection
           sectionId="articles"
           heading="Latest Articles"
           sources={["Medium"]}
-        />
+        /> */}
+        <ServicesSection sectionId="services" />
         <AboutSection sectionId="about" heading="About RPM" />
         <InterestsSection sectionId="details" heading="Details of Projects" />
         <ProjectsSection sectionId="features" heading="Built-in Features" />
