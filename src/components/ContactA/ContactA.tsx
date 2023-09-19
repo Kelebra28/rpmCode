@@ -93,7 +93,7 @@ export const Contact = ({ title, phone, email, img, alt }) => {
                     </div>
                     <div className={classes.Info}>
                         <LanguageIcon className={classes.Icon2}/>
-                        <p className={classes.Info_Text1}>rpmspeedcode.com</p>
+                        <a href="https://www.rpmspeedcode.com/" target="_blank" className={classes.Info_Text1}>rpmspeedcode.com</a>
                     </div>
                     {/* <div className={classes.Info}>
                         <GitHubIcon className={classes.Icon1}/>
