@@ -7,7 +7,7 @@
     min-height: var(--footer-height);
     background: var(--primary-color);
     border-top: none;
-    margin-top: 2rem;
+    padding: 2rem;
     padding: 2rem 0 3rem 0;
 }
 

@@ -23,6 +23,7 @@ export const useLocalDataSource = (): CarouselCard => {
                 services {
                     title
                     content
+                    icon
                 }
             }
         }

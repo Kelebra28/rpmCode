@@ -127,9 +127,9 @@
 
     .carousel {
         position: relative;
-        width: 18rem;
-        height: 21rem;
-        perspective: 500px;
+        width: 17rem;
+        height: 27rem;
+        perspective: 300px;
         transform-style: preserve-3d;
     }
 
