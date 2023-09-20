@@ -11,7 +11,6 @@ export function HeroSection(props: PageSection): React.ReactElement {
     const response = useLocalDataSource();
     const data = response.allHeroJson.sections[0];
 
-
     return (
         <Animation type="fadeUp" delay={400}>
             <Section anchor={props.sectionId} additionalClasses={[classes.HeroContainer]}>
@@ -45,6 +44,19 @@ export function HeroSection(props: PageSection): React.ReactElement {
                         </Animation>
                     </div>
                 </div>
+                {/* <div className={classes.Hero}>
+                    <div className={classes.Intro}>
+                    <Animation type="fadeLeft" delay={200}>
+                        <div className={classes.ImageWrapper}>
+                            <GatsbyImage
+                                image={data.heroPhoto.src.childImageSharp.gatsbyImageData}
+                                className={classes.Image}
+                                alt={data.heroPhoto.alt || `About Image`}
+                            />
+                        </div>
+                    </Animation>
+                    </div>
+                </div> */}
             </Section>
         </Animation>
     );

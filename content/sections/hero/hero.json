@@ -1,22 +1,26 @@
 {
-  "intro": "Come in the new ideas",
+  "intro": "Piensa fuera de la caja",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
-    "alt": "My Photo"
+    "src": "../../images/logo-degradado_negro.png",
+    "alt": "RPM Minimal"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "Welcome to the new view of the technologies",
+  "heroImage": {
+    "src": "../../images/x_negro.svg",
+    "alt": "RPM Minimal"
+  },
+  "title": "Bienvenido a la nueva visión de las tecnologías",
   "subtitle": {
-    "prefix": "We can make a solution ",
-    "highlight": "for you",
+    "prefix": "Podemos crear una solución ",
+    "highlight": "para ti",
     "suffix": "."
   },
-  "description": "We can get starting creating the solution for you",
+  "description": "Podemos empezar a crear la solución para ti",
   "socialProfiles": {
-    "from": ["LinkedIn", "Medium", "Github", "Mail"],
-    "showIcons": false
+    "from": [ "Github", "Mail"],
+    "showIcons": true
   }
 }

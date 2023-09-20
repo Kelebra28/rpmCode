@@ -23,10 +23,10 @@ export default function IndexPage() {
           sources={["Medium"]}
         /> */}
         <ServicesSection sectionId="services" />
-        <AboutSection sectionId="about" heading="About RPM" />
-        <InterestsSection sectionId="details" heading="Details of Projects" />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
-        <ContactSection sectionId="github" heading="Contact" />
+        <InterestsSection sectionId="details" heading="Detalles de los Proyectos" />
+        <AboutSection sectionId="about" heading="Sobre RPM <CODE/>" />
+        <ProjectsSection sectionId="features" heading="Características Integradas" />
+        <ContactSection sectionId="contact" heading="Contact" />
       </Page>
     </>
   );
