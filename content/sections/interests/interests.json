@@ -1,65 +1,58 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Rápida y fácil",
       "image": {
         "src": "../../images/joystick.png",
-        "alt": ""
+        "alt": "Imagen de joystick"
       }
     },
     {
-      "label": "Content via Markdown",
-      "image": {
-        "src": "../../images/notebook.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Responsive Design",
-      "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Medium Integration",
-      "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Animations",
-      "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "PWA (Offline Support)",
-      "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Modern Tech-Stack",
-      "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
-      }
-    },
-    {
-      "label": "Blazing Fast",
+      "label": "Súper rápido",
       "image": {
         "src": "../../images/high-voltage.png",
-        "alt": ""
+        "alt": "Imagen de alto voltaje"
+      }
+    },
+    {
+      "label": "Diseño responsive",
+      "image": {
+        "src": "../../images/nail-polish.png",
+        "alt": "Imagen de esmalte de uñas"
+      }
+    },
+    {
+      "label": "Animaciones",
+      "image": {
+        "src": "../../images/gem-stone.png",
+        "alt": "Imagen de piedra preciosa"
+      }
+    },
+    {
+      "label": "PWA (Soporte offline)",
+      "image": {
+        "src": "../../images/mobile-phone.png",
+        "alt": "Imagen de teléfono móvil"
+      }
+    },
+    {
+      "label": "Stack moderno",
+      "image": {
+        "src": "../../images/gatsby.png",
+        "alt": "Imagen de Gatsby"
+      }
+    },
+    {
+      "label": "Contenido por Markdown",
+      "image": {
+        "src": "../../images/notebook.png",
+        "alt": "Imagen de cuaderno"
       }
     }
   ],
   "button": {
     "visible": true,
-    "label": "+ Load More",
+    "label": "+ Cargar más",
     "initiallyShownInterests": 5
   }
 }
