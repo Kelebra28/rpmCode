@@ -20,18 +20,18 @@
     "imageDark": "../content/images/logo-degradado_blanco.png"},
     "navigation": {
       "header": [
-        { "label": "About", "url": "/#about" },
-        { "label": "Services", "url": "/#services" },
-        { "label": "Features", "url": "/#features" }
+        { "label": "Servicios", "url": "/#services" },
+        { "label": "Nosotros", "url": "/#about" },
+        { "label": "Caracteristicas", "url": "/#features" }
       ],
       "ctaButton": {
         "openNewTab": false,
-        "label": "Docs",
-        "url": "/resume.pdf"
+        "label": "Conocenos",
+        "url": "https://www.rpmspeedcode.com/"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Privacidad", "url": "/privacy" },
+        { "label": "Legal", "url": "/imprint" }
       ]
     },
     "featureToggles": {
