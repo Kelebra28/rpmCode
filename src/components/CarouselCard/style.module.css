@@ -1,0 +1,143 @@
+:root {
+    --color-aquamarine: #90FAD6;
+    --color-mithnight: #165161;
+    --color-gray: #9CA3AF;
+    --color-black: #1F2937;
+    --card-size: 23rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel {
+    position: relative;
+    width: var(--card-size);
+    height: var(--card-size);
+    perspective: 500px;
+    transform-style: preserve-3d;
+}
+
+.cardContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform:
+        rotateY(calc(var(--offset) * 50deg)) scaleY(calc(1 + var(--abs-offset) * -0.4)) translateZ(calc(var(--abs-offset) * -30rem)) translateX(calc(var(--direction) * -5rem));
+    filter: blur(calc(var(--abs-offset) * 1rem));
+    transition: all 0.3s ease-out;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    background-color: hsl(215deg, 40%, calc(100% - var(--abs-offset) * 50%));
+    border-radius: 1.5rem;
+    color: var(--color-gray);
+    text-align: justify;
+    transition: all 0.3s ease-out;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 0 0.7em;
+    color: var(--color-black);
+}
+
+.card p,
+.card h2 {
+    transition: all 0.3s ease-out;
+    opacity: var(--active);
+}
+
+.cardIconContainer {
+    width: 100%;
+    display: -webkit-inline-box;
+    place-content: center;
+    -webkit-box-pack: center;
+    margin-bottom: 20px;
+}
+
+.cardIconBackground {
+    height: 80px;
+    width: 80px;
+    font-size: 2.5rem;
+    background-color: rgb(240, 243, 255);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.cardImages {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.navLeft {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+    background: unset;
+    border: unset;
+    transform: translateX(-100%) translateY(-50%);
+}
+
+
+.navLeft:hover {
+    color: #000;
+}
+
+.navRight {
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50%;
+    z-index: 2;
+    cursor: pointer;
+    user-select: none;
+    background: unset;
+    border: unset;
+    right: 0;
+    transform: translateX(100%) translateY(-50%);
+}
+
+.navRight:hover {
+    color: #000;
+}
+
+@media (max-width: 760px) {
+
+    .carousel {
+        position: relative;
+        width: 17rem;
+        height: 27rem;
+        perspective: 300px;
+        transform-style: preserve-3d;
+    }
+
+    .navLeft {
+        font-size: 3rem;
+    }
+
+    .navRight {
+        font-size: 3rem;
+    }
+  }

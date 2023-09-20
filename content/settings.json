@@ -1,33 +1,31 @@
 {
   "siteMetadata": {
-    "language": "en",
+    "language": "es",
     "siteUrl": "",
     "title": "RPM Code",
     "titleTemplate": "%s · RPM Code",
-    "thumbnail": "../content/images/logo-white.png",
+    "thumbnail": "../content/images/logo-degradado_negro.png",
     "description": "RPM Code Lnding page.",
     "author": "RPM Code",
-    "avatar": "../content/images/favicon.png",
+    "avatar": "../content/images/logo-degradado_negro.png",
     "bio": "Can contain some more details about the page.",
     "social": {
       "behance": "https://behance.com",
-      "github": "https://github.com/r",
-      "medium": "https://medium.com/@ibrahimzahir7",
-      "linkedin": "https://www.linkedin.com/",
+      "github": "https://github.com/",
       "mail": "mailto:info@rpmspeedcode.com"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "RPM <Code/>" },
+    "logo": { "image": "../content/images/logo-degradado_negro.png", 
+    "imageDark": "../content/images/logo-degradado_blanco.png"},
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
-        { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
-        { "label": "Github", "url": "/#github" }
+        { "label": "Services", "url": "/#services" },
+        { "label": "Features", "url": "/#features" }
       ],
       "ctaButton": {
-        "openNewTab": true,
+        "openNewTab": false,
         "label": "Docs",
         "url": "/resume.pdf"
       },

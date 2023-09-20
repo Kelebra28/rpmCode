@@ -3,6 +3,8 @@ import { GatsbyImage } from 'gatsby-plugin-image';
 import { Animation } from '../../components/Animation';
 import { Section } from '../../components/Section';
 import { SocialProfiles } from '../../components/SocialProfiles';
+import ContactForm from '../../components/ContactForm';
+
 import { useLocalDataSource } from './data';
 import { PageSection } from '../../types';
 import * as classes from './style.module.css';
@@ -12,28 +14,38 @@ export function ContactSection(props: PageSection): React.ReactElement {
     const data = response.allContactJson.sections[0];
 
     return (
-        <Animation type="fadeUp">
-            <Section anchor={props.sectionId} heading={props.heading} additionalClasses={[classes.Contact]}>
-                {data.description && <p className={classes.Description}>{data.description}</p>}
-                <div className={classes.Profile}>
-                    {data.image.src && (
-                        <GatsbyImage
-                            className={classes.Avatar}
-                            image={data.image.src.childImageSharp.gatsbyImageData}
-                            alt={data.image.alt || `Profile ${data.name}`}
-                        />
-                    )}
-                    <div className={classes.ContactDetails}>
-                        <div className={classes.Name}>{data.name}</div>
-                        <u>
-                            <a href={`mailto:${data.email}`}>{data.email}</a>
-                        </u>
+        <>
+            {/* <Animation type="fadeUp">
+                <Section anchor={props.sectionId} heading={props.heading} additionalClasses={[classes.Contact]}>
+                    {data.description && <p className={classes.Description}>{data.description}</p>}
+                    <div className={classes.Profile}>
+                        {data.image.src && (
+                            <GatsbyImage
+                                className={classes.Avatar}
+                                image={data.image.src.childImageSharp.gatsbyImageData}
+                                alt={data.image.alt || `Profile ${data.name}`}
+                            />
+                        )}
+                        <div className={classes.ContactDetails}>
+                            <div className={classes.Name}>{data.name}</div>
+                            <u>
+                                <a href={`mailto:${data.email}`}>{data.email}</a>
+                            </u>
+                        </div>
                     </div>
-                </div>
-                {data.socialProfiles && (
-                    <SocialProfiles from={data.socialProfiles.from} showIcon={data.socialProfiles.showIcons} />
-                )}
-            </Section>
-        </Animation>
+                    {data.socialProfiles && (
+                        <SocialProfiles from={data.socialProfiles.from} showIcon={data.socialProfiles.showIcons} />
+                    )}
+
+                </Section>
+            </Animation> */}
+            <Animation type="fadeUp">
+                <Section custuomSection anchor={props.sectionId} additionalClasses={[classes.Contact]}>
+                    <div className={classes.ContactSectionForm}>
+                        <ContactForm data={data} />
+                    </div>
+                </Section>
+            </Animation>
+        </>
     );
 }

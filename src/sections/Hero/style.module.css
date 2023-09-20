@@ -50,6 +50,13 @@
     height: 36px;
     transform-origin: 70% 70%;
 }
+.ImageHero {
+    display: inline-block;
+    margin-left: 1rem;
+    width: 17rem;
+    height:17rem;
+    transform-origin: 70% 70%;
+}
 
 @media (min-width: 768px) {
     .Hero .Title {
@@ -101,5 +108,6 @@
 
     .Hero {
         display: block;
+        min-height: 100%;
     }
 }

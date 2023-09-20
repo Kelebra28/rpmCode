@@ -3,10 +3,16 @@
     max-width: 45rem;
 }
 
+.ContactSectionForm {
+    background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+    padding: 2rem;
+}
+
 .Contact .Description {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 .Contact .Profile {
     display: flex;
     flex-direction: column;
@@ -38,6 +44,7 @@
         align-items: center;
         margin-bottom: 3rem;
     }
+
     .Contact .Profile .Avatar {
         margin-bottom: 0;
     }
